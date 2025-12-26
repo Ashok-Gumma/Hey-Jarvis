@@ -1,0 +1,16 @@
+{
+  "name": "personabot",
+  "version": "1.0.0",
+  "private": true,
+
+  "scripts": {
+    
+    "build": "npm run install:all && npm run build --prefix frontend",
+
+    "start": "npm run start --prefix backend"
+  },
+
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
